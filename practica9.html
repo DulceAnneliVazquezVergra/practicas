@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .block {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+.common-style {
+  background-color: red;
+}
+
+#blue-block {
+  background-color: blue;
+  top: 200px;
+  left: 200px;
+}
+
+.block:nth-child(2) {
+  background-color: green;
+  top: 150px;
+  left: 150px;
+}
+
+.block:first-child {
+  top: 100px;
+  left: 100px;
+}
+</style>
+</head>
+<body>
+<div class="block common-style"></div>
+<div class="block common-style"></div>
+<div class="block common-style" id="blue-block"></div>
+</body>
+</html>

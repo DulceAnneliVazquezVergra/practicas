@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 8px 4px;
+      font-family: Arial, sans-serif;
+      border: 1px solid black;
+    }
+
+    td {
+      background-color: white;
+      color: blue;
+    }
+
+    td.destacar {
+      background-color: red;
+      color: white;
+    }
+
+    tfoot td {
+      text-align: center;
+      font-size: 12px;
+    }
+
+    caption {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>Compra Y Venta</caption>
+    <thead>
+      <tr>
+        <th style="width: 170px;">Cambio</th>
+        <th style="width: 170px;">Compra</th>
+        <th style="width: 170px;">Venta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="destacar">Euro/Dolar</td>
+        <td class="destacar">1.2524</td>
+        <td class="destacar">1.2527</td>
+      </tr>
+      <tr>
+        <td>Dolar/Yen</td>
+        <td>119.01</td>
+        <td>119.05</td>
+      </tr>
+      <tr>
+        <td>Yen/Euro</td>
+        <td>0.6711 </td>
+        <td>0.6705</td>
+    
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Venta Y Cambio</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
